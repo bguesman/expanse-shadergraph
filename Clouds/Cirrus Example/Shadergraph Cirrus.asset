@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d638bba5e3cd74faab14474568edfc, type: 3}
+  m_Name: Shadergraph Cirrus
+  m_EditorClassIdentifier: 
+  densityCurve:
+  - 0
+  - 0.013431493
+  - 0.056460347
+  - 0.13318814
+  - 0.2477164
+  - 0.4841281
+  - 0.84804153
+  - 0.9304555
+  - 0.93506217
+  - 0.9419067
+  - 0.950454
+  - 0.96016884
+  - 0.970516
+  - 0.98096037
+  - 0.9909668
+  - 1
+  coverageCurve:
+  - 0
+  - 0.2836475
+  - 0.78749055
+  - 0.99989325
+  - 0.99444145
+  - 0.9821185
+  - 0.9648407
+  - 0.9445246
+  - 0.9230865
+  - 0.9024428
+  - 0.88451004
+  - 0.8712045
+  - 0.8644426
+  - 0.7528152
+  - 0.38679394
+  - 0
+  densityAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.28766075
+      value: 0.2922641
+      inSlope: 2.2229173
+      outSlope: 2.2229173
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5201887
+    - serializedVersion: 3
+      time: 0.43632096
+      value: 0.9292448
+      inSlope: 0.029874463
+      outSlope: 0.029874463
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.46284786
+      outWeight: 0.14008479
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.12552388
+      outSlope: 0.12552388
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  coverageAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.18972334
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.096831
+    - serializedVersion: 3
+      time: 0.8166954
+      value: 0.8639989
+      inSlope: -0.010087155
+      outSlope: -0.010087155
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.36697504
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -4.71346
+      outSlope: -4.71346
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  customPostProcessPasses: []
+  noiseTextureQuality: 3
+  noiseLayers:
+  - renderSettings:
+      noiseType: 4
+      scale: {x: 27, y: 31}
+      octaves: 4
+      octaveScale: 2
+      octaveMultiplier: 0.5
+      tile: 1
+    procedural: 0
+    noiseTexture: {fileID: 8600000, guid: 91444a92ae39731438450455ce11100e, type: 2}
+  - renderSettings:
+      noiseType: 6
+      scale: {x: 8, y: 8}
+      octaves: 7
+      octaveScale: 2
+      octaveMultiplier: 0.5
+      tile: 16
+    procedural: 0
+    noiseTexture: {fileID: 8600000, guid: 517b2c168e586a845b002df36bf288d0, type: 2}
+  - renderSettings:
+      noiseType: 6
+      scale: {x: 24, y: 24}
+      octaves: 3
+      octaveScale: 2
+      octaveMultiplier: 0.5
+      tile: 64
+    procedural: 0
+    noiseTexture: {fileID: 8600000, guid: 4d2021ec417940f4089b8723b0995568, type: 2}
+  - renderSettings:
+      noiseType: 4
+      scale: {x: 12, y: 12}
+      octaves: 5
+      octaveScale: 2
+      octaveMultiplier: 0.75
+      tile: 164
+    procedural: 0
+    noiseTexture: {fileID: 8600000, guid: 9b9dbf9ac0ee31b43bef8276f8314651, type: 2}
+  - renderSettings:
+      noiseType: 2
+      scale: {x: 16, y: 16}
+      octaves: 4
+      octaveScale: 2
+      octaveMultiplier: 0.5
+      tile: 1
+    procedural: 1
+    noiseTexture: {fileID: 0}
+  - renderSettings:
+      noiseType: 7
+      scale: {x: 8, y: 8}
+      octaves: 3
+      octaveScale: 2
+      octaveMultiplier: 0.3
+      tile: 196
+    procedural: 1
+    noiseTexture: {fileID: 0}
+  renderSettings:
+    geometryType: 3
+    geometryXExtent: {x: -100000, y: 100000}
+    geometryYExtent: {x: 6600, y: 7400}
+    geometryZExtent: {x: -100000, y: 100000}
+    geometryHeight: 7000
+    coverageIntensity: 0.27
+    structureIntensity: 0.1
+    structureMultiply: 0.091
+    detailIntensity: 0.091
+    detailMultiply: 0.053
+    baseWarpIntensity: 0
+    detailWarpIntensity: 0
+    windSkew: {x: 0, y: 0}
+    attenuationOrigin: {x: 0, y: 7000, z: 0}
+    coverageTile: 1
+    baseTile: 16
+    structureTile: 64
+    detailTile: 164
+    baseWarpTile: 1
+    detailWarpTile: 196
+    coverageOffset: {x: -0.08256933, y: 0, z: -0.07743067}
+    baseOffset: {x: 7.80046, y: 0.6613873, z: 0}
+    structureOffset: {x: 0, y: -0, z: 0}
+    detailOffset: {x: 0, y: -0, z: 0}
+    baseWarpOffset: {x: 0, y: -0, z: 0}
+    detailWarpOffset: {x: 0, y: -0, z: 0}
+    density: 600
+    attenuationDistance: 16000
+    attenuationBias: 30000
+    rampUp: {x: 0, y: 0}
+    extinctionCoefficients: {x: 0.000004, y: 0.000004, z: 0.000004}
+    scatteringCoefficients: {x: 0.000004, y: 0.000004, z: 0.000004}
+    multipleScatteringMultiplier: 1
+    shadowPersistence: 1
+    silverSpread: 1
+    silverIntensity: 0
+    anisotropy: 0.6
+    ambient: 0
+    ambientHeightRange: {x: 0, y: 1}
+    ambientStrengthRange: {x: 0, y: 0.34}
+    selfShadowing: 0
+    highQualityShadows: 0
+    shadowSampleJitter: 1
+    maxSelfShadowDistance: 5264
+    ambientShadowing: 0
+    heightShadowRange: {x: 0, y: 1}
+    heightShadowIntensity: {x: 0, y: 0}
+    lightPollutionDimmer: 0
+    castShadows: 1
+    apparentThickness: 0
+    phasePersistence: 0
+    multipleScatteringReceptiveField: 18.71
+    multipleScatteringBias: 1
+    depthProbabilityDetailIndex: 0
+    maxShadowIntensity: 1
+    reprojectionFrames: 1
+    useTemporalDenoising: 1
+    catmullRomFiltering: 1
+    neighborhoodClamping: 0
+    neighborhoodClampIntensity: 1
+    temporalDenoisingRatio: 0.25
+    sampleJitter: 1
+    pixelJitter: 0
+    coarseStepSize: 0
+    detailStepSize: 0
+    coarseStepRange: {x: 64, y: 96}
+    detailStepRange: {x: 128, y: 196}
+    stepDistanceRange: {x: 125, y: 15000}
+    flythroughStepRange: {x: 8, y: 512}
+    flythroughStepDistanceRange: {x: 0, y: 50000}
+    LODDistances: {x: 15000, y: 30000}
+    mediaZeroThreshold: 0.00001
+    transmittanceZeroThreshold: 0.001
+    maxConsecutiveZeroSamples: 8
+    lightSamplingStrategy: 0
+    denoisingDepthRejection: 0
+    denoisingDepthRejectionThreshold: {x: 0.25, y: 2}
+  presetImagePath: Assets/expanse-shadergraph/Clouds/Cirrus Example/Shadergraph Cirrus.jpg
